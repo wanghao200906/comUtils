@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="demo_name">
+        <item> DialogDemo </item>
+        <item> TextViewDemo </item>
+    </string-array>
+
+
+    <string-array name="dialog_deme_name">
+        <item> CheckOutAlertdialog </item>
+    </string-array>
+
+
+    <string-array name="textview_deme_name">
+        <item> AutoFontSizeTextView </item>
+    </string-array>
+
+
+</resources>

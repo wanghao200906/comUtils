@@ -9,16 +9,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FullscreenActivity"
+            android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".demo.DialogDemo"></activity>
+        <activity android:name=".demo.TextViewDemo"></activity>
+        <activity android:name=".demo.dialog.CheckOutAlertdialog"></activity>
+        <activity android:name=".demo.textview.AutoFontSizeTextView"></activity>
     </application>
 
 </manifest>

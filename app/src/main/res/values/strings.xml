@@ -3,4 +3,7 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="auto_size_text">我爱北京天安门，天安门上太阳升</string>
+
+
 </resources>
