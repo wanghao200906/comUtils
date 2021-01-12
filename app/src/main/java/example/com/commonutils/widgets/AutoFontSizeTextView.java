@@ -6,7 +6,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
@@ -16,6 +15,9 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
 import android.widget.TextView;
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.widget.AppCompatTextView;
 
 import example.com.commonutils.R;
 
@@ -35,7 +37,7 @@ import example.com.commonutils.R;
  * 支持设置字体行数
  */
 
-public class AutoFontSizeTextView extends android.support.v7.widget.AppCompatTextView {
+public class AutoFontSizeTextView extends AppCompatTextView {
     private static final String TAG = "AutoFontSizeTextView";
     private CharSequence textContent;//textview的内容
     private float mSpacingMult = 1.0f;//StaticLayout
